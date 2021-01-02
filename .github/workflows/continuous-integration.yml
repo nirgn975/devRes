@@ -17,7 +17,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Hugo Build
         run: hugo --source=exampleSite --minify -v
 
       - uses: actions/checkout@v2
@@ -29,4 +29,6 @@ jobs:
         run: gem install html-proofer
 
       - name: Proof HTML
-        run: htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external
+        run: |
+          hugo --source=exampleSite --minify -v
+          htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external
