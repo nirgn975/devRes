@@ -67,7 +67,7 @@ education:
       items:
         - text: "The <a href='https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101' target='_blank'>program syllabus</a> include: Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks, Generative Adversarial Networks"
         - text: The 5 projects I built during the program - <a href="https://github.com/nirgn975/DLND" target="_blank">GitHub</a>
-        - text: <a href="education/nd101.pdf" download>Completion certificate</a>
+        - text: <a href="files/nd101.pdf" download>Completion certificate</a>
   - course: Bachelor's degree in Computer Science and Business Administration
     schoolName: The Open University of Israel
     schoolUrl: https://www.linkedin.com/edu/school?id=162040&trk=edu-cp-title
