@@ -34,9 +34,9 @@ $(document).ready(function() {
     .then(data => {
       const channel = data.childNodes[0].childNodes[0];
 
-      let posts = 0;
+      let posts = 1;
       for (let entity of channel.childNodes.values()) {
-        if (posts > 3) {
+        if (posts > params.blog.numberOfPosts) {
           break;
         }
 

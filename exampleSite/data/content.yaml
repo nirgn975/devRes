@@ -11,18 +11,9 @@ banner:
     - url: https://twitter.com/nirgn975
       icon: fab fa-twitter
       text: Twitter
-    - url: https://www.linkedin.com/in/nirgn
-      icon: fab fa-linkedin
-      text: LinkedIn
     - url: http://stackoverflow.com/users/2040160/nir
       icon: fab fa-stack-overflow
       text: Stack Overflow
-    - url: https://www.reddit.com/user/nirgn975
-      icon: fab fa-reddit-alien
-      text: Reddit
-    - url: http://www.meetup.com/members/52111382
-      icon: fab fa-meetup
-      text: Meetup
 
 aboutMe:
   text: I'm a dedicated, quality-focused professional with a strong sense of responsibility, team spirit and good human skills.
@@ -30,7 +21,6 @@ aboutMe:
     enable: True
     items:
       - text: Active in the open source community.
-      - text: Broad system view with the ability to drill down to the fine details.
       - text: Fast learning curve, adapting and embracing new technologies.
 
 work:
@@ -64,102 +54,8 @@ work:
         - text: Implements a Microservices architecture with Pub/Sub.
         - text: Using Deep Learning methodologies to extract and analyze data. And save it in MongoDB, and Redis Databases.
         - text: Created the project from scratch, build the team, manage it, doing code reviews, etc.
-  - position: Full Stack Software Engineer
-    employerName: Gizra - Internet Solutions
-    employerUrl: https://www.linkedin.com/company/1776824
-    timeStart: 12/2015
-    timeEnd: 01/2017
-    text:
-    list:
-      enable: True
-      items:
-        - text: Developing a system to connect between companies on varies projects, tracking, and managing them, for the European Union.
-        - text: The Frontend is build with HTML5, CSS3, Bootstrap, JS, and jQuery. Backend written with Drupal in PHP and MySQL Database.
-        - text: Working with Git on GitHub, doing code reviews, and writing tests with Behat (runs on Travis-CI).
-        - text: Builds a Docker image for the system, and integrate continuous deployment methods.
-  - position: Lead Software Engineer, Volunteer
-    employerName: The Public Knowledge Workshop
-    employerUrl: https://www.linkedin.com/company/2471778
-    timeStart: 10/2015
-    timeEnd: 01/2019
-    text:
-    list:
-      enable: True
-      items:
-        - text: Take part in Hackita02 program and one of the founders of "Ways Of Time" project that enable the National Library of Israel to upload and geotag their geographic maps collection, and open them to the public (Python, Django, Leaflet, PostGIS, MDL).
-        - text: Lead developer of version 2.x of the "Open Pension" project. The project mission is to reveal what happens behind the Israeli pension market, while enabling the public to trace the money and expose corruption (Python, Django, Scrapy, PostgreSQL, Angular, ngrx, d3.js).
-        - text: <a href="https://github.com/nirgn975/WaysOfTime" target="_blank">Ways Of Time Repo</a> | <a href="https://github.com/hasadna/open_pension" target="_blank">Open Pension Website Repo</a> | <a href="https://github.com/hasadna/open_pension_scraper" target="_blank">Open Pension Crawler Repo</a>
-  - position: Junior Full Stack Software Engineer
-    employerName: Restart Group - IT | WEB | Mobile | People
-    employerUrl: https://www.linkedin.com/company/2484049
-    timeStart: 07/2015
-    timeEnd: 11/2015
-    text:
-    list:
-      enable: True
-      items:
-        - text: Part of a team that develops and maintains a financial system, from end to end, that handles thousands of transactions to offshore bank accounts.
-        - text: Implement a new Front-end design built with HTML5, CSS3, Bootstrap, JS and jQuery.
-        - text: Back-end written in PHP, and DB in MySQL.
-        - text: Implement new banks APIs.
-  - position: Internet Expert
-    employerName: Cellcom Israel, Ltd
-    employerUrl: https://www.linkedin.com/company/162949
-    timeStart: 03/2011
-    timeEnd: 12/2012
-    text:
-    list:
-      enable: True
-      items:
-        - text: Tier 2 customer Support Expert Team.
-        - text: Knowledge focal point for representatives at specialized Call centers.
-        - text: Handling top level customer escalations and Gold customers support.
-        - text: Experience working on UNIX-based switches with HP-UX, And with SAP & Amdocs systems.
-        - text: Responsible for converting two call centers (Haifa and Beer Sheva) to specialized centers (provide training, and supervision throughout the beginning of the activity until go-live operation).
-  - position: Internet Service Representitive
-    employerName: Cellcom Israel, Ltd
-    employerUrl: https://www.linkedin.com/company/162949
-    timeStart: 11/2009
-    timeEnd: 02/2011
-    text:
-    list:
-      enable: True
-      items:
-        - text: Tier 1 customer Support Team.
-        - text: Handling customer requirements and providing solutions on Internet, data and technical problems.
-        - text: Rated at the 10% of the Company's outstanding employees in 2010 and a leader in service in the internet and technical Customer Service Center in 2011.
-  - position: Military service (shortened for health reasons)
-    employerName: Israel Defense Forces
-    employerUrl: https://www.linkedin.com/company/israeldefenseforces/
-    timeStart: 03/2009
-    timeEnd: 10/2009
-    text: Administrative role in the logistics department at Sde Dov Air Force base.
-    list:
-      enable: False
-      items:
-        - text:
 
 education:
-  - course: Self Learning
-    schoolName:
-    schoolUrl:
-    timeStart: always
-    timeEnd: always
-    text: I'm very passionate about computers and technology, I always strive to learn more and keep myself up to date.<br>Here are some of the platforms I use do achive that goal<br><br><a href='http://teamtreehouse.com/nirgalon' target='_blank'>Treehouse Profile</a> | <a href='https://www.codecademy.com/profiles/teraAce56031' target='_blank'> Codecademy Profile</a><div class='badges'><a href='https://www.codewars.com/users/nirgn' target='_blank'><img src='https://www.codewars.com/users/nirgn/badges/small'></a><a href='https://stackexchange.com/users/2325549' target='_blank'><img src='https://stackexchange.com/users/flair/2325549.png' width='208' height='58'></a><a href='https://tryhackme.com/p/nirgn975' target='_blank'><img src='https://tryhackme-badges.s3.amazonaws.com/nirgn975.png' alt='TryHackMe'></a></div>
-    list:
-      enable: False
-      items:
-        - text: ""
-  - course: Practical Ethical Hacking - by Heath Adams (The Cyber Mentor)
-    schoolName: Udemy
-    schoolUrl: https://www.udemy.com
-    timeStart: 6/2020
-    timeEnd: 12/2020
-    text: A pentration testing course at Udemy
-    list:
-      enable: True
-      items:
-        - text: "The <a href='https://www.udemy.com/course/practical-ethical-hacking' target='_blank'>program syllabus</a> include: Networking, Active Directory exploitation, hack Wireless networks, OWASP Top 10, how to write a Pentest Report, etc"
   - course: Deep Learning Foundations
     schoolName: Udacity
     schoolUrl: https://www.udacity.com
@@ -184,44 +80,8 @@ education:
         - text: "Seminar paper in Business Ethics course (grade: 85)"
         - text: "Final project was in Java: <a href='https://github.com/nirgn975/Book4You' target='_blank'>GitHub Repo</a> (grade: 95)"
         - text: "GPA: 76"
-  - course: Fundamentals of Computing Specialization on Coursera
-    schoolName: Rice University
-    schoolUrl: http://www.rice.edu
-    timeStart: 01/2014
-    timeEnd: 05/2014
-    text: "The specialization including the courses:"
-    list:
-      enable: True
-      items:
-        - text: <a href="https://www.coursera.org/account/accomplishments/records/4AcC8bpzybnSy88v" target="_blank">An Introduction to Interactive Programming in Python - (9 weeks)</a>
-        - text: <a href="https://www.coursera.org/account/accomplishments/verify/9JN97ACR8M" target="_blank">Principles of Computing (Part 1) - (5 weeks)</a>
-        - text: "GPA: 76"
-  - course: High School diploma
-    schoolName: Ora Modi'im High School
-    schoolUrl: https://oramodiim.tik-tak.net
-    timeStart: 01/2004
-    timeEnd: 01/2008
-    text: Majoring in computer science at Ora Modi'im High School
-    list:
-      enable: True
-      items:
-        - text: "GPA: 82"
 
 skills:
-  - family: Architecture
-    items:
-      - icon: <span class="devicons devicons-code"></span>
-        text: Microservices
-      - icon: <span class="devicons devicons-code"></span>
-        text: RESTful APIs
-      - icon: <span class="devicons devicons-code"></span>
-        text: GraphQL
-      - icon: <span class="devicons devicons-code"></span>
-        text: Data Structures & Algorithms
-      - icon: <span class="devicons devicons-code"></span>
-        text: SasS / PasS
-      - icon: <span class="devicons devicons-code"></span>
-        text: TDD (Test Driven Development)
   - family: FrontEnd
     items:
       - icon: <span class="devicons devicons-html5"></span>
@@ -250,64 +110,6 @@ skills:
         text: Git
       - icon: <span class="devicons devicons-github_badge"></span>
         text: GitHub
-  - family: Tools
-    items:
-      - icon: <span class="devicons devicons-terminal"></span>
-        text: Bash
-      - icon: <span class="devicons devicons-jekyll_small"></span>
-        text: Jekyll
-      - icon: <span class="devicons devicons-markdown"></span>
-        text: Hugo
-      - icon: <span class="devicons devicons-atom"></span>
-        text: Electron
-      - icon: <span class="devicons devicons-gulp"></span>
-        text: Gulp
-      - icon: <span class="devicons devicons-ionic"></span>
-        text: Ionic
-      - icon: <span class="devicons devicons-yeoman"></span>
-        text: Yeoman
-  - family: Databases
-    items:
-      - icon: <span class="devicons devicons-postgresql"></span>
-        text: PostgreSQL
-      - icon: <span class="devicons devicons-mongodb"></span>
-        text: MongoDB
-      - icon: <span class="devicons devicons-database"></span>
-        text: RethinkDB
-      - icon: <span class="devicons devicons-redis"></span>
-        text: Redis
-      - icon: <span class="devicons devicons-firebase"></span>
-        text: Firebase
-  - family: Clouds & Devops
-    items:
-      - icon: <span class="devicons devicons-aws"></span>
-        text: AWS
-      - icon: vdevicons devicons-docker"></span>
-        text: Docker
-      - icon: <span class="devicons devicons-docker"></span>
-        text: Kubernetes
-      - icon: <span class="devicons devicons-digital-ocean"></span>
-        text: Digital Ocean
-      - icon: <span class="devicons devicons-google-cloud-platform"></span>
-        text: Google Cloud Platform
-      - icon: <i class="fas fa-project-diagram"></i>
-        text: CI / CD
-      - icon: <i class="fas fa-server"></i>
-        text: Load Balancing
-      - icon: <span class="devicons devicons-nginx"></span>
-        text: NGINX
-  - family: Others
-    items:
-      - icon: <i class="fas fa-lock-open-alt"></i>
-        text: Doing Pen Testing By Night
-      - icon: <i class="fas fa-coffee"></i>
-        text: Coffee Drinker
-      - icon: <i class="fas fa-bug"></i>
-        text: Open Source Contributer
-      - icon: <i class="fas fa-laptop"></i>
-        text: Unix (Linux & Mac) User
-      - icon: <i class="fad fa-microchip"></i>
-        text: Love To Play With Arduino & Raspberry Pi
 
 projects:
   githubUsername: nirgn975
@@ -316,14 +118,11 @@ projects:
     name: Jekyll Starter Kit Generator
   - url: stories-of-a-lifelong-student
     name: Stories Of A Lifelong Student
-  - url: challenges
-    name: Random Challenges Solutions
-  - url: angular-sanic-seed-project
-    name: Angular Sanic Seed Project
 
 blog:
   url: https://lifelongstudent.io
   sitemapUrl: https://lifelongstudent.io/index.xml
+  numberOfPosts: 2
 
 talks:
   - title: "Pipenv: The future of Python dependency management"
@@ -331,16 +130,6 @@ talks:
     date: 4/12/17
     meetupUrl: https://www.meetup.com/PyWeb-IL/events/245071494
     downloadLink: files/pipenv-the-future-of-python-dependency-management.pptx
-  - title: API Star - Next generation framework!
-    cover: img/talks/api-star.webp
-    date: 6/11/17
-    meetupUrl: https://www.meetup.com/PyWeb-IL/events/243985794
-    downloadLink: files/api-star.pptx
-  - title: 404 SQL DB not found. Meet RethinkDB
-    cover: img/talks/404-sql-db-not-found.webp
-    date: 11/8/16
-    meetupUrl: https://www.meetup.com/RethinkDB-Israel-Meetup/events/217336482
-    downloadLink: files/404-sql-db-not-found.pptx
 
 contact:
   formspreeUrl: https://formspree.io/nir@galon.io

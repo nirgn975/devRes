@@ -8,7 +8,7 @@
 <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
 
 {{"<!-- Plausible Analytics -->" | safeHTML}}
-<script async defer data-domain="nir.galon.io" src="https://plausible.io/js/plausible.js"></script>
+<script async defer data-domain="{{ .Site.Params.analytics.plausibleDomain }}" src="https://plausible.io/js/plausible.js"></script>
 
 <script type="text/javascript">
 /**

@@ -4,7 +4,7 @@
 name = "devRes"
 license = "ISC"
 licenselink = "https://github.com/nirgn975/devRes/main/LICENSE"
-description = ""
+description = "A Hugo Developer Focus Resume"
 homepage = "https://github.com/nirgn975/devRes"
 tags = ["developer", "resume", "cv"]
 features = ["developer", "resume", "cv"]
