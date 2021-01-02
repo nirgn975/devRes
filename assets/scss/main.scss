@@ -1,19 +1,17 @@
 :root {
-  --color-background: #E0E0E0;
-  --color-text: rgba(0, 0, 0, .87);
-  --color-text-meta: rgba(0, 0, 0, .4);
-  --color-text-hover: #1e70bf;
-  --color-border: rgba(0, 0, 0, .3);
-  --color-header-background: #ffffff;
+  --color-background: {{ .Site.Params.light.background | default "#E0E0E0" }};
+  --color-text: {{ .Site.Params.light.text | default "#333333" }};
+  --color-text-hover: {{ .Site.Params.light.textHover | default "#1e70bf" }};
+  --color-border: {{ .Site.Params.light.border | default "#999999" }};
+  --color-header-background: {{ .Site.Params.light.headerBackground | default "#ffffff" }};
 }
 
 [data-theme="dark"] {
-  --color-background: #303030;
-  --color-text: rgba(255, 255, 255, .6);
-  --color-text-meta: rgba(255, 255, 255, .25);
-  --color-text-hover: #bdebfc;
-  --color-border: rgba(255, 255, 255, .3);
-  --color-header-background: #424242;
+  --color-background: {{ .Site.Params.dark.background | default "#303030" }};
+  --color-text: {{ .Site.Params.dark.text | default "#B3B3B3" }};
+  --color-text-hover: {{ .Site.Params.dark.textHover | default "#bdebfc" }};
+  --color-border: {{ .Site.Params.dark.colorBorder | default "#666666" }};
+  --color-header-background: {{ .Site.Params.dark.headerBackground | default "#424242" }};
 }
 
 html, body {

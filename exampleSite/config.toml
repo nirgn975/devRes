@@ -1,14 +1,22 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 theme = "devRes"
-title = "Example - CV"
+title = "DevRes"
 
 [params]
-colorDark = "#666"
-colorLight = "#fff"
-colorPageBackground = "#ddd"
-colorPrimary = "#e3bfb8"
-colorPrimaryText = "#fff"
-colorRightColumnBackground = "#f5f5f5"
-colorSecondary = "#aaa"
-pages = 1
+  [params.light]
+    background = "#E0E0E0"
+    text = "#333333"
+    textHover = "#1e70bf"
+    border = "#999999"
+    headerBackground = "#ffffff"
+
+  [params.dark]
+    background = "#303030"
+    text = "#B3B3B3"
+    textHover = "#bdebfc"
+    border = "#666666"
+    headerBackground = "#424242"
+
+  [params.analytics]
+    plausibleDomain = "nir.galon.io"
