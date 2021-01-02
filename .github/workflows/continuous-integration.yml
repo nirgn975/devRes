@@ -3,7 +3,7 @@ name: Continuous Integration
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -22,3 +22,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Proof HTML
+        run: |
+          gem install html-proofer
+          htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external
