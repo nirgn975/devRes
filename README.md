@@ -1,9 +1,8 @@
 # devRes Theme
 
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](http://creativecommons.org/licenses/by/4.0/) ![Continuous Deployment](https://github.com/nirgn975/stories-of-a-lifelong-student/workflows/Continuous%20Deployment/badge.svg?branch=master) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](http://creativecommons.org/licenses/by/4.0/) ![Continuous Integration](https://github.com/nirgn975/devRes/workflows/Continuous%20Integration/badge.svg?branch=main) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
 
-
-> Something about the theme.
+> A Hugo resume theme with a Developer focus in mind.
 
 ![Screenshot](images/screenshot.webp)
 
@@ -19,6 +18,8 @@ theme = "devRes"
 
 - Responsive layout.
 - Light / Dark mode.
+- Generate GitHub project cards automatically from a repo name.
+- Automagically get the latest posts from your blog.
 - [Plausible](https://plausible.io) analytics.
 
 # Customization
@@ -32,4 +33,4 @@ You can check the `exampleSite` directory for an example.
 
 Great! All issues and pull requests are welcome.
 
-For local development just copy all the files to the `exampleSite` directory, navigate to it and just start [hugo](https://gohugo.io) with `hugo server -D`.
+For local development just copy all the files to the `exampleSite` directory, navigate to it and just start [hugo](https://gohugo.io) with `hugo server --source=exampleSite -v --gc`.

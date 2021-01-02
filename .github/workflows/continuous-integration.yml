@@ -3,16 +3,13 @@ name: Continuous Integration
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -20,5 +17,18 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
-        run: hugo --minify
+      - name: Hugo Build
+        run: hugo --source=exampleSite --minify -v
+
+      - uses: actions/checkout@v2
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: Install dependencies
+        run: gem install html-proofer
+
+      - name: Proof HTML
+        run: |
+          hugo --source=exampleSite --minify -v
+          htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external
