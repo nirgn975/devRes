@@ -1,0 +1,47 @@
+<div id="header">
+  <div class="uk-card uk-card-default">
+    <div class="uk-card-media-top">
+      <img src="{{ .Site.Data.content.banner.photo }}">
+    </div>
+    <div class="uk-card-body">
+      <div class="description">
+        {{ .Site.Data.content.banner.text | safeHTML }}
+      </div>
+      <div class="links">
+        {{ range .Site.Data.content.banner.links }}
+          <a href="{{ .url }}" target="_blank">
+            <i class="{{ .icon }}"></i>{{ .text }}
+          </a>
+          <br>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- This is a button toggling the off-canvas -->
+<button id="mobile" uk-toggle="target: #mobile-banner" type="button">
+  <span uk-icon="icon: menu; ratio: 1.5"></span>
+</button>
+
+<!-- This is an anchor toggling the off-canvas -->
+<a href="#mobile-banner" uk-toggle></a>
+
+<!-- This is the off-canvas -->
+<div id="mobile-banner" uk-offcanvas>
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <img src="{{ .Site.Data.content.banner.photo }}">
+    <div class="description">
+      {{ .Site.Data.content.banner.text | safeHTML }}
+    </div>
+    <div class="links">
+      {{ range .Site.Data.content.banner.links }}
+        <a href="{{ .url }}" target="_blank">
+          <i class="{{ .icon }}"></i>{{ .text }}
+        </a>
+        <br>
+      {{ end }}
+    </div>
+  </div>
+</div>

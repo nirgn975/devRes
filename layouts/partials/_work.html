@@ -1,0 +1,28 @@
+<div class="work">
+  <span class="category-header">
+    <i class="fas fa-briefcase fa-2x"></i>
+    <h2>Work</h2>
+  </span>
+
+  <div class="timeline-container">
+    {{ range .Site.Data.content.work }}
+      <div class="timeline-item">
+        <span class="date">{{ .timeStart }} - {{ .timeEnd }}</span>
+        <h3>
+          {{ .position }} @
+          <a href="{{ .employerUrl | safeHTML }}" target="_blank">{{ .employerName }}</a>
+        </h3>
+        <p>
+          {{ .text | safeHTML }}
+          {{ if .list.enable }}
+            <ul>
+              {{ range .list.items }}
+                 <li>{{ .text | safeHTML }}</li>
+               {{ end }}
+            </ul>
+          {{ end }}
+        </p>
+      </div>
+    {{ end }}
+  </div>
+</div>

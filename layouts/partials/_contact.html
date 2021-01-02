@@ -1,0 +1,27 @@
+<div class="contact">
+  <span class="category-header">
+    <i class="fas fa-envelope fa-2x"></i>
+    <h2>Contact</h2>
+  </span>
+
+  <form action="{{ .Site.Data.content.contact.formspreeUrl | safeHTML }}" method="POST">
+    <fieldset class="uk-fieldset">
+
+      <div class="uk-margin row">
+        <input class="uk-input" type="text" name="first-name" placeholder="First Name">
+        <input class="uk-input" type="text" name="last-name" placeholder="Last Name">
+      </div>
+
+      <div class="uk-margin">
+        <input class="uk-input" type="email" name="email" placeholder="Email">
+      </div>
+
+      <div class="uk-margin">
+        <textarea class="uk-textarea" name="message-body" rows="5"></textarea>
+      </div>
+
+      <button class="uk-button uk-button-default" type="submit">Send</button>
+
+    </fieldset>
+  </form>
+</div>

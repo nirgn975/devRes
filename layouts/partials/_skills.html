@@ -1,0 +1,16 @@
+<div class="skills">
+  <span class="category-header">
+    <i class="fal fa-code fa-2x"></i>
+    <h2>Skills</h2>
+  </span>
+
+
+  {{ range .Site.Data.content.skills }}
+    <h3>{{ .family }}</h3>
+    <div class="block">
+      {{ range .items }}
+      <span class="icon">{{ .icon | safeHTML }} {{ .text }}</span>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
