@@ -21,7 +21,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo server --source=exampleSite --minify -v
+        run: hugo --source=exampleSite --minify -v
 
       - name: Proof HTML
         run: |
