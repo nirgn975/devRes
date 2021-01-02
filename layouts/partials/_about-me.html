@@ -1,0 +1,18 @@
+<div class="about-me">
+  <span class="category-header">
+    <i class="fas fa-user fa-2x"></i>
+    <h2>About Me</h2>
+    <button class="uk-icon-button" uk-icon="paint-bucket" type="button" onClick="switchTheme(this)"></button>
+  </span>
+
+  <div>
+    <p>{{ .Site.Data.content.aboutMe.text | safeHTML }}</p>
+    {{ if .Site.Data.content.aboutMe.list.enable }}
+    <ul>
+      {{ range .Site.Data.content.aboutMe.list.items }}
+        <li>{{ .text }}</li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</div>

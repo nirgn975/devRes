@@ -1,0 +1,28 @@
+<div class="talks">
+  <span class="category-header">
+    <i class="fas fa-bullhorn fa-2x"></i>
+    <h2>Talks</h2>
+  </span>
+
+  {{ range .Site.Data.content.talks }}
+    <div class="uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="{{ .cover }}" uk-cover>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title">{{ .title }}</h3>
+            <p>
+              <span>{{ .date }}</span> |
+              <span>
+                <a href="{{ .meetupUrl }}" target="_blank"> Meetpup Page</a> |
+              </span>
+              <span>
+                <a href="{{ .downloadLink }}" target="_blank"> Download</a>
+              </span>
+            </p>
+          </div>
+        </div>
+    </div>
+  {{ end }}
+</div>

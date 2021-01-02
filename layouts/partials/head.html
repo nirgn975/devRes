@@ -1,0 +1,38 @@
+<head>
+	<meta charset="utf-8">
+	<title>{{ .Site.Title }}</title>
+
+	{{ "<!-- mobile responsive meta -->" | safeHTML }}
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+	{{ with site.Params.author }}
+	<meta name="author" content="{{ . }}">{{ end }}
+	{{ hugo.Generator }}
+
+	{{"<!-- Modern-Normalize -->" | safeHTML}}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@0.7.0/modern-normalize.min.css">
+
+	{{"<!-- Google Fonts -->" | safeHTML}}
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	{{"<!-- UIkit CSS -->" | safeHTML}}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+
+	{{ "<!--Favicon-->" | safeHTML }}
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ `img/icons/apple-touch-icon.png` | absURL }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ `img/icons/favicon-32x32.png` | absURL }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ `img/icons/favicon-16x16.png` | absURL }}">
+	<link rel="manifest" href="{{ `img/icons/site.webmanifest` | absURL }}">
+
+	{{"<!-- Main Stylesheet -->"| safeHTML}}
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap" rel="stylesheet">
+
+  {{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" >
+
+	{{"<!-- Devicons -->"| safeHTML}}
+	<link href='//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css' rel='stylesheet'>
+
+	{{"<!-- Font Awesome -->"| safeHTML}}
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-VhBcF/php0Z/P5ZxlxaEx1GwqTQVIBu4G4giRWxTKOCjTxsPFETUDdVL5B6vYvOt" crossorigin="anonymous">
+</head>
