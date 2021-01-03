@@ -21,8 +21,8 @@ theme = "devRes"
 - Generate GitHub project cards automatically from a repo name.
 - Automagically get the latest posts from your blog.
 - Use [Font Awesome](https://fontawesome.com) or [Devicons](https://devicon.dev) icons.
-- Support [Google Analytics](https://analytics.google.com/analytics) and [Plausible](https://plausible.io) analytics.
-- Optimized for performance: 86/100 on mobile and 99/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
+- Support [Google](https://analytics.google.com/analytics) and [Plausible](https://plausible.io) analytics.
+- Optimized for Performance, Accessibility, Best Practices, and SEO: 90+ (out of 100) on mobile and desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
 - **CDN** for all third-party libraries supported
 
 # Customization
