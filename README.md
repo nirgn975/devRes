@@ -1,6 +1,6 @@
 # devRes Theme
 
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](http://creativecommons.org/licenses/by/4.0/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/nirgn975/devRes)](https://github.com/nirgn975/devRes/releases) ![Continuous Deployment](https://github.com/nirgn975/devRes/workflows/Continuous%20Deployment/badge.svg?branch=main) [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?logo=hugo)](https://gohugo.io/) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](http://creativecommons.org/licenses/by/4.0/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/nirgn975/devRes)](https://github.com/nirgn975/devRes/releases) ![Continuous Deployment](https://github.com/nirgn975/devRes/workflows/Continuous%20Deployment/badge.svg?branch=main) [![Hugo](https://img.shields.io/badge/Hugo-%5E0.41.0-ff4088?logo=hugo)](https://gohugo.io/) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
 
 > A Hugo resume theme with a Developer focus in mind.
 
