@@ -1,7 +1,12 @@
 name: Continuous Deployment
 
+# on:
+#   push:
+#     branches:
+#       - main
+
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -22,3 +27,11 @@ jobs:
 
       - name: Build
         run: hugo --minify -e production
+
+      # - name: Release
+      #   run: npx standard-version --first-release
+
+      - name: Release
+        uses: ridedott/release-me-action@master
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
