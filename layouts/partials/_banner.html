@@ -1,7 +1,7 @@
 <div id="header">
   <div class="uk-card uk-card-default">
     <div class="uk-card-media-top">
-      <img src="{{ .Site.Data.content.banner.photo }}">
+      <img src="{{ .Site.Data.content.banner.photo }}" alt="Profile Image">
     </div>
     <div class="uk-card-body">
       <div class="description">
@@ -20,7 +20,7 @@
 </div>
 
 <!-- This is a button toggling the off-canvas -->
-<button id="mobile" uk-toggle="target: #mobile-banner" type="button">
+<button id="mobile" uk-toggle="target: #mobile-banner" type="button" aria-label="Open Menu">
   <span uk-icon="icon: menu; ratio: 1.5"></span>
 </button>
 
@@ -31,7 +31,7 @@
 <div id="mobile-banner" uk-offcanvas>
   <div class="uk-offcanvas-bar">
     <button class="uk-offcanvas-close" type="button" uk-close></button>
-    <img src="{{ .Site.Data.content.banner.photo }}">
+    <img src="{{ .Site.Data.content.banner.photo }}" alt="Profile Image">
     <div class="description">
       {{ .Site.Data.content.banner.text | safeHTML }}
     </div>

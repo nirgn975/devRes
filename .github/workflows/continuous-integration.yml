@@ -11,13 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Hugo
+      - name: Setup Hugo 💡
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
-      - name: Hugo Build
+      - name: Hugo Build 🚧
         run: hugo --source=exampleSite --minify -v
 
       - uses: actions/checkout@v2
@@ -25,10 +25,11 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6
+
       - name: Install dependencies
         run: gem install html-proofer
 
-      - name: Proof HTML
+      - name: Proof HTML 📚
         run: |
           hugo --source=exampleSite --minify -v
           htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external

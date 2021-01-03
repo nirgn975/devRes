@@ -11,18 +11,26 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Hugo
+      - name: Setup Hugo 💡
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
-      - name: Hugo Build
+      - name: Hugo Build 🚧
         run: hugo --source=exampleSite --minify -e production
 
-      - name: Release
+      - name: Create Release 🚀
         uses: ridedott/release-me-action@master
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release-branches: '["main"]'
+
+      - name: Deploy gh-pages 🖥️
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: exampleSite/public
+          CLEAN: true
