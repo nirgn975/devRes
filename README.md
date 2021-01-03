@@ -36,7 +36,7 @@ You can check the `exampleSite` directory for an example.
 
 Great! All issues and pull requests are welcome.
 
-For local development just copy all the files to the `exampleSite` directory, navigate to it and just start [hugo](https://gohugo.io) with
+For local development just start [hugo](https://gohugo.io) with `exampleSite` as the source.
 
 ```bash
 $ hugo server --source=exampleSite -v --gc
