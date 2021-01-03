@@ -1,12 +1,7 @@
 name: Continuous Deployment
 
-# on:
-#   push:
-#     branches:
-#       - main
-
 on:
-  pull_request:
+  push:
     branches:
       - main
 
@@ -24,9 +19,6 @@ jobs:
 
       - name: Hugo Build
         run: hugo --source=exampleSite --minify -e production
-
-      # - name: Release
-      #   run: npx standard-version --first-release
 
       - name: Release
         uses: ridedott/release-me-action@master
