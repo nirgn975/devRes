@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/nirgn975/devRes/compare/v1.0.1...v1.0.2) (2021-01-03)
+
+### Documentation
+
+- add demo section into README file ([1488cf9](https://github.com/nirgn975/devRes/commit/1488cf9c2313ba868a5ef41e7014b1e9e2f7c590))
+
+### Other
+
+- Merge branch 'main' of github.com:nirgn975/devRes into main ([aab9f9b](https://github.com/nirgn975/devRes/commit/aab9f9b4c344340daac7d918ab72f43174937c3d))
+
 ## [1.0.1](https://github.com/nirgn975/devRes/compare/v1.0.0...v1.0.1) (2021-01-03)
 
 ### Bug Fixes
