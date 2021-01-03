@@ -22,4 +22,9 @@ themesDir = "../.."
     headerBackground = "#424242"
 
   [params.analytics]
-    plausibleDomain = "nir.galon.io"
+    [params.analytics.plausible]
+      enable = true
+      domain = "nir.galon.io"
+    [params.analytics.google]
+      enable = false
+      id = "UA-87725724-1"
