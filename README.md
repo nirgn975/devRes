@@ -1,6 +1,6 @@
 # devRes Theme
 
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](http://creativecommons.org/licenses/by/4.0/) ![Continuous Integration](https://github.com/nirgn975/devRes/workflows/Continuous%20Integration/badge.svg?branch=main) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](http://creativecommons.org/licenses/by/4.0/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/nirgn975/devRes)](https://github.com/nirgn975/devRes/releases) ![Continuous Integration](https://github.com/nirgn975/devRes/workflows/Continuous%20Integration/badge.svg?branch=main) [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?logo=hugo)](https://gohugo.io/) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
 
 > A Hugo resume theme with a Developer focus in mind.
 
@@ -20,7 +20,10 @@ theme = "devRes"
 - Light / Dark mode.
 - Generate GitHub project cards automatically from a repo name.
 - Automagically get the latest posts from your blog.
-- [Plausible](https://plausible.io) analytics.
+- Use [Font Awesome](https://fontawesome.com) or [Devicons](https://devicon.dev) icons.
+- Support [Google Analytics](https://analytics.google.com/analytics) and [Plausible](https://plausible.io) analytics.
+- Optimized for performance: 86/100 on mobile and 99/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
+- **CDN** for all third-party libraries supported
 
 # Customization
 
@@ -33,4 +36,8 @@ You can check the `exampleSite` directory for an example.
 
 Great! All issues and pull requests are welcome.
 
-For local development just copy all the files to the `exampleSite` directory, navigate to it and just start [hugo](https://gohugo.io) with `hugo server --source=exampleSite -v --gc`.
+For local development just copy all the files to the `exampleSite` directory, navigate to it and just start [hugo](https://gohugo.io) with
+
+```bash
+$ hugo server --source=exampleSite -v --gc
+```

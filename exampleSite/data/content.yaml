@@ -1,6 +1,6 @@
 banner:
   text: Hi!<br>My name is Nir Galon, I'm a geek who always want to learn new things. I work as a software engineer and I love what I do!
-  photo: img/nir-galon.jpg
+  photo: img/nir-galon.webp
   links:
     - url: https://lifelongstudent.io
       icon: fas fa-pencil-alt
