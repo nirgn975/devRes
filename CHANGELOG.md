@@ -1,3 +1,13 @@
+## [1.0.1](https://github.com/nirgn975/devRes/compare/v1.0.0...v1.0.1) (2021-01-03)
+
+### Bug Fixes
+
+- fix the base URL of the exampleSite to match GitHub gh-pages ([a20eaae](https://github.com/nirgn975/devRes/commit/a20eaaec29bcf817d212b92c7607a411fa8f1c43))
+
+### Other
+
+- Fix accessibility issues (#7) ([2db30b6](https://github.com/nirgn975/devRes/commit/2db30b66e3117c23ef2ab0ac6414be9473aeaa6c)), closes [#7](https://github.com/nirgn975/devRes/issues/7) [#6](https://github.com/nirgn975/devRes/issues/6)
+
 # 1.0.0 (2021-01-03)
 
 ### Bug Fixes
