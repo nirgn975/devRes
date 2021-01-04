@@ -1,7 +1,7 @@
 (() => {
   // ns-params:@params
   var blog = {numberOfPosts: 2, sitemapUrl: "https://lifelongstudent.io/index.xml", url: "https://lifelongstudent.io"};
-  var projects = {githubUsername: "nirgn975", repos: [{name: "Jekyll Starter Kit Generator", url: "generator-jekyll-starter-kit"}, {name: "Stories Of A Lifelong Student", url: "stories-of-a-lifelong-student"}]};
+  var projects = {githubUsername: "nirgn975", repos: [{name: "Jekyll Starter Kit Generator", url: "generator-jekyll-starter-kit"}, {name: "Stories Of A Lifelong Student", url: "stories-of-a-lifelong-student"}, {name: "Developer Resume", url: "devRes"}]};
 
   // javascript/main.js
   async function getReposData() {
