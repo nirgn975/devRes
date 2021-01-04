@@ -1,10 +1,7 @@
 banner:
-  text: Hi!<br>My name is Nir Galon, I'm a geek who always want to learn new things. I work as a software engineer and I love what I do!
-  photo: img/nir-galon.webp
+  text: Hi!<br>My name is John Doe, and this is me resume. I work as a software engineer and live in Israel.
+  photo: img/profile-image.webp
   links:
-    - url: https://lifelongstudent.io
-      icon: fas fa-pencil-alt
-      text: Lifelong Student Blog
     - url: https://github.com/nirgn975
       icon: fab fa-github
       text: GitHub
@@ -16,44 +13,42 @@ banner:
       text: Stack Overflow
 
 aboutMe:
-  text: I'm a dedicated, quality-focused professional with a strong sense of responsibility, team spirit and good human skills.
+  text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   list:
     enable: True
     items:
-      - text: Active in the open source community.
-      - text: Fast learning curve, adapting and embracing new technologies.
+      - text: It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      - text: It was popularised in the 1960s with the release of Letraset sheets containing.
 
 work:
-  - position: Lead Software Engineer
-    employerName: Verint
-    employerUrl: https://www.verint.com
+  - position: Lead DevOps Engineer
+    employerName: Google
+    employerUrl: https://www.linkedin.com/company/google/
     timeStart: 01/2020
     timeEnd: Present
-    text:
+    text: Nullam aliquam ornare massa. Nulla eleifend viverra velit, et vehicula metus condimentum sit amet. Aliquam erat volutpat. Nam sit amet viverra orci. Nulla rutrum facilisis massa, vel tincidunt erat. Nam ante quam, ultricies eu dignissim quis, consequat non velit.
     list:
       enable: True
       items:
-        - text: WebintPro LTD was acquired by Verint.
-        - text: Write a compelete data pipeline using Airflow to load data from GCP Storage files to PostgreSQL.
-        - text: Rewrite the backend microservices from Express.js to NestJS.
-        - text: Implement a new design for the main app in Angular.
-        - text: Build a CI/CD for an electron desktop application using GitHub and GCP.
-  - position: Lead Software Engineer
-    employerName: webintPro Ltd
-    employerUrl: https://www.linkedin.com/company/3296384
-    timeStart: 02/2017
+        - text: a tincidunt tortor dictum non. Phasellus lobortis leo risus, at malesuada eros rutrum non.
+        - text: Quisque hendrerit hendrerit lectus.
+        - text: Aliquam erat volutpat. Nam sit amet viverra orci. Nulla rutrum facilisis.
+  - position: Software Engineer
+    employerName: Facebook
+    employerUrl: https://www.linkedin.com/company/facebook/
+    timeStart: 02/2015
     timeEnd: 12/2019
     text:
     list:
       enable: True
       items:
-        - text: I formed a team (4 full stack developers) to develop and maintains a system to fetch, analyze, and save big data from social networks.
-        - text: The backend services was written in Python with Sanic framework and Node.js with Express.js framework.
-        - text: The frontend dashboard was written in Angular using ngrx, material, and D3.js.
-        - text: Using Docker & Kubernetes for deployment on Google Cloud Platform, with a compelete CI/CD (tests, code reviews, dev environment, etc).
-        - text: Implements a Microservices architecture with Pub/Sub.
-        - text: Using Deep Learning methodologies to extract and analyze data. And save it in MongoDB, and Redis Databases.
-        - text: Created the project from scratch, build the team, manage it, doing code reviews, etc.
+        - text: Nam ornare sollicitudin mauris quis dignissim.
+        - text: Mauris sed risus consectetur, rutrum urna a, dictum ex.
+        - text: Aenean quam augue, suscipit quis nisl ut.
+        - text: Donec a venenatis risus. Nullam gravida faucibus rhoncus. Fusce feugiat lectus sit amet fermentum maximus.
+        - text: Aliquam pharetra arcu a lectus pharetra, eget mattis orci rutrum.
+        - text: Duis interdum imperdiet porta.
+        - text: Aenean quam augue, suscipit quis nisl ut, sodales sodales quam. Duis scelerisque feugiat tellus, ut rutrum dui tempus sed. Proin at sapien lorem.
 
 education:
   - course: Deep Learning Foundations
@@ -67,19 +62,17 @@ education:
       items:
         - text: "The <a href='https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101' target='_blank'>program syllabus</a> include: Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks, Generative Adversarial Networks"
         - text: The 5 projects I built during the program - <a href="https://github.com/nirgn975/DLND" target="_blank">GitHub</a>
-        - text: <a href="files/nd101.pdf" download>Completion certificate</a>
-  - course: Bachelor's degree in Computer Science and Business Administration
-    schoolName: The Open University of Israel
-    schoolUrl: https://www.linkedin.com/edu/school?id=162040&trk=edu-cp-title
+  - course: Bachelor of Science (BSc) in Computer Science
+    schoolName: MIT - Massachusetts Institute of Technology
+    schoolUrl: https://www.linkedin.com/school/mit/
     timeStart: 06/2011
-    timeEnd: 06/2016
+    timeEnd: 06/2014
     text:
     list:
       enable: True
       items:
-        - text: "Seminar paper in Business Ethics course (grade: 85)"
-        - text: "Final project was in Java: <a href='https://github.com/nirgn975/Book4You' target='_blank'>GitHub Repo</a> (grade: 95)"
-        - text: "GPA: 76"
+        - text: Major in distributed computing systems.
+        - text: 3.8 GPA
 
 skills:
   - family: FrontEnd
@@ -87,19 +80,17 @@ skills:
       - icon: <span class="devicons devicons-html5"></span>
         text: HTML
       - icon: <span class="devicons devicons-sass"></span>
-        text: CSS / SCSS (Bootstrap, UIkit, Material Design)
+        text: CSS / SCSS (Bootstrap, Material Design)
       - icon: <span class="devicons devicons-nodejs_small"></span>
         text: JavaScript (jQuery, Ajax)
       - icon: <span class="devicons devicons-angular"></span>
-        text: Angular (cli, ngrx, material)
+        text: Angular
   - family: BackEnd
     items:
-      - icon: <span class="devicons devicons-java"></span>
-        text: Java (Spring)
       - icon: <span class="devicons devicons-nodejs"></span>
         text: Node.js (TypeScript, Express.js, NestJS, Mocha)
       - icon: <span class="devicons devicons-python"></span>
-        text: Python (Django, Flask, Sanic)
+        text: Python (Django, Sanic)
       - icon: <span class="devicons devicons-go"></span>
         text: Golang
   - family: Platforms
@@ -118,6 +109,8 @@ projects:
     name: Jekyll Starter Kit Generator
   - url: stories-of-a-lifelong-student
     name: Stories Of A Lifelong Student
+  - url: devRes
+    name: Developer Resume
 
 blog:
   url: https://lifelongstudent.io
@@ -125,11 +118,11 @@ blog:
   numberOfPosts: 2
 
 talks:
-  - title: "Pipenv: The future of Python dependency management"
-    cover: img/talks/pipenv-the-future-of-python-dependency-management.webp
-    date: 4/12/17
-    meetupUrl: https://www.meetup.com/PyWeb-IL/events/245071494
-    downloadLink: files/pipenv-the-future-of-python-dependency-management.pptx
+  - title: "The future of blogging is with Hugo"
+    cover: img/talks/hugo-blogging.webp
+    date: 4/12/19
+    meetupUrl: https://www.meetup.com
+    downloadLink: https://github.com/nirgn975/devRes
 
 contact:
-  formspreeUrl: https://formspree.io/nir@galon.io
+  formspreeUrl: https://formspree.io/johndoe@gmail.com
