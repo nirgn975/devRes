@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/nirgn975/devRes/compare/v1.0.2...v1.0.3) (2021-01-04)
+
+### Documentation
+
+- change the content of the exampleSite ([6f96ebe](https://github.com/nirgn975/devRes/commit/6f96ebe4940bf7a291fdfefb0ee408604b5d6ba2))
+
 ## [1.0.2](https://github.com/nirgn975/devRes/compare/v1.0.1...v1.0.2) (2021-01-03)
 
 ### Documentation
