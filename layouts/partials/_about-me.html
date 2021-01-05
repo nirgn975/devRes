@@ -1,18 +1,21 @@
-<div class="about-me">
-  <span class="category-header">
-    <i class="fas fa-user fa-2x"></i>
-    <h2>About Me</h2>
-    <button class="uk-icon-button" uk-icon="paint-bucket" type="button" onClick="switchTheme(this)" aria-label="Switch Theme"></button>
-  </span>
+{{ if .Site.Data.content.aboutMe.enable }}
+  <div class="about-me">
+    <span class="category-header">
+      <i class="fas fa-user fa-2x"></i>
+      <h2>About Me</h2>
+      <button class="uk-icon-button" uk-icon="paint-bucket" type="button" onClick="switchTheme(this)" aria-label="Switch Theme"></button>
+    </span>
 
-  <div>
-    <p>{{ .Site.Data.content.aboutMe.text | safeHTML }}</p>
-    {{ if .Site.Data.content.aboutMe.list.enable }}
-    <ul>
-      {{ range .Site.Data.content.aboutMe.list.items }}
-        <li>{{ .text }}</li>
+    <div>
+      <p>{{ .Site.Data.content.aboutMe.text | safeHTML }}</p>
+      {{ if .Site.Data.content.aboutMe.list.enable }}
+      <ul>
+        {{ range .Site.Data.content.aboutMe.list.items }}
+          <li>{{ .text }}</li>
+        {{ end }}
+      </ul>
       {{ end }}
-    </ul>
-    {{ end }}
+    </div>
   </div>
-</div>
+  <hr>
+{{ end }}

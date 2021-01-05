@@ -1,8 +1,11 @@
-<div class="projects">
-  <span class="category-header">
-    <i class="fal fa-code-branch fa-2x"></i>
-    <h2>Some of my Projects</h2>
-  </span>
+{{ if .Site.Data.content.projects.enable }}
+  <div class="projects">
+    <span class="category-header">
+      <i class="fal fa-code-branch fa-2x"></i>
+      <h2>Some of my Projects</h2>
+    </span>
 
-  <div class="repos uk-grid-match uk-child-width-1-2@s uk-child-width-1-4@xl" uk-grid></div>
-</div>
+    <div class="repos uk-grid-match uk-child-width-1-2@s uk-child-width-1-4@xl" uk-grid></div>
+  </div>
+  <hr>
+{{ end }}

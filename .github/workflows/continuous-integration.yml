@@ -18,7 +18,9 @@ jobs:
           extended: true
 
       - name: Hugo Build 🚧
-        run: hugo --source=exampleSite --minify -v
+        run: |
+          sed -i 's/example.com/nirgn975.github.io\/devRes/g' exampleSite/config.toml
+          hugo --source=exampleSite --minify -v
 
       - uses: actions/checkout@v2
       - name: Set up Ruby 2.6
