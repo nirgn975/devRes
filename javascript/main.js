@@ -1,10 +1,13 @@
 (() => {
   // ns-params:@params
-  var blog = {numberOfPosts: 2, sitemapUrl: "https://lifelongstudent.io/index.xml", url: "https://lifelongstudent.io"};
-  var projects = {githubUsername: "nirgn975", repos: [{name: "Jekyll Starter Kit Generator", url: "generator-jekyll-starter-kit"}, {name: "Stories Of A Lifelong Student", url: "stories-of-a-lifelong-student"}, {name: "Developer Resume", url: "devRes"}]};
+  var blog = {enable: false, numberOfPosts: 2, sitemapUrl: "https://lifelongstudent.io/index.xml", url: "https://lifelongstudent.io"};
+  var projects = {enable: true, githubUsername: "nirgn975", repos: [{name: "Jekyll Starter Kit Generator", url: "generator-jekyll-starter-kit"}, {name: "Stories Of A Lifelong Student", url: "stories-of-a-lifelong-student"}, {name: "Developer Resume", url: "devRes"}]};
 
   // javascript/main.js
   async function getReposData() {
+    if (!projects.enable) {
+      return;
+    }
     for (repo of projects.repos) {
       await fetch(`https://api.github.com/repos/${projects.githubUsername}/${repo.url}`).then((response) => response.json()).then((data) => {
         repo.value = {
@@ -19,7 +22,7 @@
     ;
     return projects.repos;
   }
-  $(document).ready(function() {
+  document.addEventListener("DOMContentLoaded", function(event) {
     const theme = localStorage.getItem("theme");
     if (theme == "dark") {
       $("html").attr("data-theme", "dark");
