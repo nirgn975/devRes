@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/nirgn975/devRes/compare/v1.0.3...v2.0.0) (2021-01-05)
+
+### Features
+
+- adhere Hugo theme requirements (#9) ([ed32b32](https://github.com/nirgn975/devRes/commit/ed32b322ffc016787c291f7b5e67762ee75182da)), closes [#9](https://github.com/nirgn975/devRes/issues/9) [#8](https://github.com/nirgn975/devRes/issues/8)
+
+### BREAKING CHANGE
+
+- Add an option to disable/enable section - changed the content yaml structure.
+
 ## [1.0.3](https://github.com/nirgn975/devRes/compare/v1.0.2...v1.0.3) (2021-01-04)
 
 ### Documentation
