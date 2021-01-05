@@ -24,7 +24,7 @@ themesDir = "../.."
   [params.analytics]
     [params.analytics.plausible]
       enable = true
-      domain = "johndoe@nirgn975.github.io/devRes"
+      domain = "johndoe.com"
     [params.analytics.google]
       enable = false
       id = "UA-xxxxxxxx-1"
