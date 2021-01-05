@@ -1,28 +1,31 @@
-<div class="education">
-  <span class="category-header">
-    <i class="fas fa-graduation-cap fa-2x"></i>
-    <h2>Education</h2>
-  </span>
+{{ if .Site.Data.content.education.enable }}
+  <div class="education">
+    <span class="category-header">
+      <i class="fas fa-graduation-cap fa-2x"></i>
+      <h2>Education</h2>
+    </span>
 
-  <div class="timeline-container">
-    {{ range .Site.Data.content.education }}
-      <div class="timeline-item">
-        <span class="date">{{ .timeStart }} - {{ .timeEnd }}</span>
-        <h3>
-          {{ .course }} @
-          <a href="{{ .schoolUrl | safeHTML }}" target="_blank">{{ .schoolName }}</a>
-        </h3>
-        <p>
-          {{ .text | safeHTML }}
-          {{ if .list.enable }}
-            <ul>
-              {{ range .list.items }}
-                 <li>{{ .text | safeHTML }}</li>
-               {{ end }}
-            </ul>
-          {{ end }}
-        </p>
-      </div>
-    {{ end }}
+    <div class="timeline-container">
+      {{ range .Site.Data.content.education.items }}
+        <div class="timeline-item">
+          <span class="date">{{ .timeStart }} - {{ .timeEnd }}</span>
+          <h3>
+            {{ .course }} @
+            <a href="{{ .schoolUrl | safeHTML }}" target="_blank">{{ .schoolName }}</a>
+          </h3>
+          <p>
+            {{ .text | safeHTML }}
+            {{ if .list.enable }}
+              <ul>
+                {{ range .list.items }}
+                   <li>{{ .text | safeHTML }}</li>
+                 {{ end }}
+              </ul>
+            {{ end }}
+          </p>
+        </div>
+      {{ end }}
+    </div>
   </div>
-</div>
+  <hr>
+{{ end }}

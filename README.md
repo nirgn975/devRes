@@ -1,6 +1,6 @@
 # devRes Theme | Hugo
 
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](http://creativecommons.org/licenses/by/4.0/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/nirgn975/devRes)](https://github.com/nirgn975/devRes/releases) ![Continuous Deployment](https://github.com/nirgn975/devRes/workflows/Continuous%20Deployment/badge.svg?branch=main) [![Hugo](https://img.shields.io/badge/Hugo-%5E0.41.0-ff4088?logo=hugo)](https://gohugo.io/) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg)](http://creativecommons.org/licenses/by/4.0/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/nirgn975/devRes)](https://github.com/nirgn975/devRes/releases) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![Continuous Deployment](https://github.com/nirgn975/devRes/workflows/Continuous%20Deployment/badge.svg?branch=main) [![Hugo](https://img.shields.io/badge/Hugo-%5E0.59.0-ff4088?logo=hugo)](https://gohugo.io/) [![Donate](https://img.shields.io/badge/PayPal-Donate-lightgrey.svg)](https://www.paypal.me/nirgn/2)
 
 > A Hugo resume theme with a Developer focus in mind.
 
@@ -20,6 +20,7 @@ To see this theme in action, Here is a [live demo](https://nirgn975.github.io/de
 - Support [Google](https://analytics.google.com/analytics) and [Plausible](https://plausible.io) analytics.
 - Optimized for Performance, Accessibility, Best Practices, and SEO: 90+ (out of 100) on mobile and desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
 - **CDN** for all third-party libraries supported.
+- Automated contact form with [formspree](https://formspree.io).
 
 ## Getting started
 

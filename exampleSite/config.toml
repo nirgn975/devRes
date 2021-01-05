@@ -1,4 +1,4 @@
-baseURL = "https://nirgn975.github.io/devRes/"
+baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "DevRes"
 theme = "devRes"
@@ -24,7 +24,7 @@ themesDir = "../.."
   [params.analytics]
     [params.analytics.plausible]
       enable = true
-      domain = "nir.galon.io"
+      domain = "johndoe.com"
     [params.analytics.google]
       enable = false
-      id = "UA-87725724-1"
+      id = "UA-xxxxxxxx-1"
