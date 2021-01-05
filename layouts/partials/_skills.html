@@ -1,16 +1,19 @@
-<div class="skills">
-  <span class="category-header">
-    <i class="fal fa-code fa-2x"></i>
-    <h2>Skills</h2>
-  </span>
+{{ if .Site.Data.content.skills.enable }}
+  <div class="skills">
+    <span class="category-header">
+      <i class="fal fa-code fa-2x"></i>
+      <h2>Skills</h2>
+    </span>
 
 
-  {{ range .Site.Data.content.skills }}
-    <h3>{{ .family }}</h3>
-    <div class="block">
-      {{ range .items }}
-      <span class="icon">{{ .icon | safeHTML }} {{ .text }}</span>
-      {{ end }}
-    </div>
-  {{ end }}
-</div>
+    {{ range .Site.Data.content.skills.items }}
+      <h3>{{ .family }}</h3>
+      <div class="block">
+        {{ range .items }}
+        <span class="icon">{{ .icon | safeHTML }} {{ .text }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+  <hr>
+{{ end }}

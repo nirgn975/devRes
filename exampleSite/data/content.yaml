@@ -13,6 +13,7 @@ banner:
       text: Stack Overflow
 
 aboutMe:
+  enable: True
   text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
   list:
     enable: True
@@ -21,88 +22,95 @@ aboutMe:
       - text: It was popularised in the 1960s with the release of Letraset sheets containing.
 
 work:
-  - position: Lead DevOps Engineer
-    employerName: Google
-    employerUrl: https://www.linkedin.com/company/google/
-    timeStart: 01/2020
-    timeEnd: Present
-    text: Nullam aliquam ornare massa. Nulla eleifend viverra velit, et vehicula metus condimentum sit amet. Aliquam erat volutpat. Nam sit amet viverra orci. Nulla rutrum facilisis massa, vel tincidunt erat. Nam ante quam, ultricies eu dignissim quis, consequat non velit.
-    list:
-      enable: True
-      items:
-        - text: a tincidunt tortor dictum non. Phasellus lobortis leo risus, at malesuada eros rutrum non.
-        - text: Quisque hendrerit hendrerit lectus.
-        - text: Aliquam erat volutpat. Nam sit amet viverra orci. Nulla rutrum facilisis.
-  - position: Software Engineer
-    employerName: Facebook
-    employerUrl: https://www.linkedin.com/company/facebook/
-    timeStart: 02/2015
-    timeEnd: 12/2019
-    text:
-    list:
-      enable: True
-      items:
-        - text: Nam ornare sollicitudin mauris quis dignissim.
-        - text: Mauris sed risus consectetur, rutrum urna a, dictum ex.
-        - text: Aenean quam augue, suscipit quis nisl ut.
-        - text: Donec a venenatis risus. Nullam gravida faucibus rhoncus. Fusce feugiat lectus sit amet fermentum maximus.
-        - text: Aliquam pharetra arcu a lectus pharetra, eget mattis orci rutrum.
-        - text: Duis interdum imperdiet porta.
-        - text: Aenean quam augue, suscipit quis nisl ut, sodales sodales quam. Duis scelerisque feugiat tellus, ut rutrum dui tempus sed. Proin at sapien lorem.
+  enable: True
+  items:
+    - position: Lead DevOps Engineer
+      employerName: Google
+      employerUrl: https://www.linkedin.com/company/google/
+      timeStart: 01/2020
+      timeEnd: Present
+      text: Nullam aliquam ornare massa. Nulla eleifend viverra velit, et vehicula metus condimentum sit amet. Aliquam erat volutpat. Nam sit amet viverra orci. Nulla rutrum facilisis massa, vel tincidunt erat. Nam ante quam, ultricies eu dignissim quis, consequat non velit.
+      list:
+        enable: True
+        items:
+          - text: a tincidunt tortor dictum non. Phasellus lobortis leo risus, at malesuada eros rutrum non.
+          - text: Quisque hendrerit hendrerit lectus.
+          - text: Aliquam erat volutpat. Nam sit amet viverra orci. Nulla rutrum facilisis.
+    - position: Software Engineer
+      employerName: Facebook
+      employerUrl: https://www.linkedin.com/company/facebook/
+      timeStart: 02/2015
+      timeEnd: 12/2019
+      text:
+      list:
+        enable: True
+        items:
+          - text: Nam ornare sollicitudin mauris quis dignissim.
+          - text: Mauris sed risus consectetur, rutrum urna a, dictum ex.
+          - text: Aenean quam augue, suscipit quis nisl ut.
+          - text: Donec a venenatis risus. Nullam gravida faucibus rhoncus. Fusce feugiat lectus sit amet fermentum maximus.
+          - text: Aliquam pharetra arcu a lectus pharetra, eget mattis orci rutrum.
+          - text: Duis interdum imperdiet porta.
+          - text: Aenean quam augue, suscipit quis nisl ut, sodales sodales quam. Duis scelerisque feugiat tellus, ut rutrum dui tempus sed. Proin at sapien lorem.
 
 education:
-  - course: Deep Learning Foundations
-    schoolName: Udacity
-    schoolUrl: https://www.udacity.com
-    timeStart: 01/2017
-    timeEnd: 08/2017
-    text: A nanodegree program at Udacity
-    list:
-      enable: True
-      items:
-        - text: "The <a href='https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101' target='_blank'>program syllabus</a> include: Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks, Generative Adversarial Networks"
-        - text: The 5 projects I built during the program - <a href="https://github.com/nirgn975/DLND" target="_blank">GitHub</a>
-  - course: Bachelor of Science (BSc) in Computer Science
-    schoolName: MIT - Massachusetts Institute of Technology
-    schoolUrl: https://www.linkedin.com/school/mit/
-    timeStart: 06/2011
-    timeEnd: 06/2014
-    text:
-    list:
-      enable: True
-      items:
-        - text: Major in distributed computing systems.
-        - text: 3.8 GPA
+  enable: True
+  items:
+    - course: Deep Learning Foundations
+      schoolName: Udacity
+      schoolUrl: https://www.udacity.com
+      timeStart: 01/2017
+      timeEnd: 08/2017
+      text: A nanodegree program at Udacity
+      list:
+        enable: True
+        items:
+          - text: "The <a href='https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101' target='_blank'>program syllabus</a> include: Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks, Generative Adversarial Networks"
+          - text: The 5 projects I built during the program - <a href="https://github.com/nirgn975/DLND" target="_blank">GitHub</a>
+    - course: Bachelor of Science (BSc) in Computer Science
+      schoolName: MIT - Massachusetts Institute of Technology
+      schoolUrl: https://www.linkedin.com/school/mit/
+      timeStart: 06/2011
+      timeEnd: 06/2014
+      text:
+      list:
+        enable: True
+        items:
+          - text: Major in distributed computing systems.
+          - text: 3.8 GPA
 
 skills:
-  - family: FrontEnd
-    items:
-      - icon: <span class="devicons devicons-html5"></span>
-        text: HTML
-      - icon: <span class="devicons devicons-sass"></span>
-        text: CSS / SCSS (Bootstrap, Material Design)
-      - icon: <span class="devicons devicons-nodejs_small"></span>
-        text: JavaScript (jQuery, Ajax)
-      - icon: <span class="devicons devicons-angular"></span>
-        text: Angular
-  - family: BackEnd
-    items:
-      - icon: <span class="devicons devicons-nodejs"></span>
-        text: Node.js (TypeScript, Express.js, NestJS, Mocha)
-      - icon: <span class="devicons devicons-python"></span>
-        text: Python (Django, Sanic)
-      - icon: <span class="devicons devicons-go"></span>
-        text: Golang
-  - family: Platforms
-    items:
-      - icon: <span class="devicons devicons-linux"></span>
-        text: Linux
-      - icon: <span class="devicons devicons-git"></span>
-        text: Git
-      - icon: <span class="devicons devicons-github_badge"></span>
-        text: GitHub
+  enable: True
+  items:
+    - family: FrontEnd
+      items:
+        - icon: <span class="devicons devicons-html5"></span>
+          text: HTML
+        - icon: <span class="devicons devicons-sass"></span>
+          text: CSS / SCSS (Bootstrap, Material Design)
+        - icon: <span class="devicons devicons-nodejs_small"></span>
+          text: JavaScript (jQuery, Ajax)
+        - icon: <span class="devicons devicons-angular"></span>
+          text: Angular
+    - family: BackEnd
+      items:
+        - icon: <span class="devicons devicons-nodejs"></span>
+          text: Node.js (TypeScript, NestJS, Mocha)
+        - icon: <span class="devicons devicons-python"></span>
+          text: Python (Django, Sanic)
+        - icon: <span class="devicons devicons-go"></span>
+          text: Golang
+    - family: Platforms
+      items:
+        - icon: <span class="devicons devicons-linux"></span>
+          text: Linux
+        - icon: <span class="devicons devicons-git"></span>
+          text: Git
+        - icon: <span class="devicons devicons-github_badge"></span>
+          text: GitHub
 
 projects:
+  enable: True
   githubUsername: nirgn975
   repos:
   - url: generator-jekyll-starter-kit
@@ -113,16 +121,19 @@ projects:
     name: Developer Resume
 
 blog:
+  enable: False
   url: https://lifelongstudent.io
   sitemapUrl: https://lifelongstudent.io/index.xml
   numberOfPosts: 2
 
 talks:
-  - title: "The future of blogging is with Hugo"
-    cover: img/talks/hugo-blogging.webp
-    date: 4/12/19
-    meetupUrl: https://www.meetup.com
-    downloadLink: https://github.com/nirgn975/devRes
+    enable: True
+    items:
+    - title: "The future of blogging is with Hugo"
+      cover: img/talks/hugo-blogging.webp
+      date: 4/12/19
+      meetupUrl: https://www.meetup.com
+      downloadLink: https://github.com/nirgn975/devRes
 
 contact:
   formspreeUrl: https://formspree.io/johndoe@gmail.com

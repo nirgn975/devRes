@@ -1,9 +1,13 @@
 import * as params from '@params';
 
 /**
- *
+ * Get GitHub repos data.
  */
 async function getReposData() {
+  if (!params.projects.enable) {
+    return;
+  }
+
   for (repo of params.projects.repos) {
     await fetch(`https://api.github.com/repos/${params.projects.githubUsername}/${repo.url}`)
       .then(response => response.json())
@@ -21,7 +25,7 @@ async function getReposData() {
   return params.projects.repos;
 }
 
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function(event) {
   const theme = localStorage.getItem('theme');
   if (theme == 'dark') {
     $('html').attr('data-theme', 'dark');
