@@ -1,3 +1,9 @@
+## [2.0.3](https://github.com/nirgn975/devRes/compare/v2.0.2...v2.0.3) (2021-01-06)
+
+### Bug Fixes
+
+- fix accessibility issues ([77e74e9](https://github.com/nirgn975/devRes/commit/77e74e9c0fc44b14ebcba562c7ce35e39d0851b7))
+
 ## [2.0.2](https://github.com/nirgn975/devRes/compare/v2.0.1...v2.0.2) (2021-01-06)
 
 ### Documentation
