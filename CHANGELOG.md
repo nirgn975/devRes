@@ -1,3 +1,9 @@
+## [2.0.4](https://github.com/nirgn975/devRes/compare/v2.0.3...v2.0.4) (2021-01-06)
+
+### Documentation
+
+- remove PSD file ([73d2280](https://github.com/nirgn975/devRes/commit/73d2280e194a65d4ba2aac47502a5b677e0d456d))
+
 ## [2.0.3](https://github.com/nirgn975/devRes/compare/v2.0.2...v2.0.3) (2021-01-06)
 
 ### Bug Fixes
