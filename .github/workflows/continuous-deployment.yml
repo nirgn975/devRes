@@ -18,7 +18,9 @@ jobs:
           extended: true
 
       - name: Hugo Build 🚧
-        run: hugo --source=exampleSite --minify -e production
+        run: |
+          sed -i 's/example.com/nirgn975.github.io\/devRes/g' exampleSite/config.toml
+          hugo --source=exampleSite --minify -e production
 
       - name: Create Release 🚀
         uses: ridedott/release-me-action@master

@@ -20,7 +20,7 @@ To see this theme in action, Here is a [live demo](https://nirgn975.github.io/de
 - Support [Google](https://analytics.google.com/analytics) and [Plausible](https://plausible.io) analytics.
 - Optimized for Performance, Accessibility, Best Practices, and SEO: 90+ (out of 100) on mobile and desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
 - **CDN** for all third-party libraries supported.
-- Automated contact form with [formspree](https://formspree.io).
+- Automated contact form with [formspree](https://formspree.io) and [getform](https://getform.io).
 
 ## Getting started
 
