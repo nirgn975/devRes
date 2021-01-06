@@ -64,7 +64,7 @@
                   <p>${editedPostText}</p>
                 </div>
                 <div class="uk-card-footer">
-                  <a href="${entity.getElementsByTagName("link")[0].textContent}" target="_blank" class="uk-button uk-button-text">Go to Post</a>
+                  <a href="${entity.getElementsByTagName("link")[0].textContent}" target="_blank" class="uk-button uk-button-text" rel="noreferrer">Go to Post</a>
                 </div>
               </div>
             </div>
@@ -86,8 +86,9 @@
                 </div>
               </div>
               <div class="uk-card-media-top">
-                <a href="${repo.value.url}" target="_blank">
-                  <img src="img/projects/${repo.url}.webp">
+                <a href="${repo.value.url}" target="_blank" rel="noreferrer">
+                  <p style="display: none">A GitHub project hero cover</p>
+                  <img src="img/projects/${repo.url}.webp" alt="A GitHub project hero cover">
                 </a>
               </div>
               <div class="uk-card-body">
