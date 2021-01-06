@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/nirgn975/devRes/compare/v2.0.0...v2.0.1) (2021-01-06)
+
+### Continuous Integration
+
+- fix gh-pages deployment ([0718303](https://github.com/nirgn975/devRes/commit/07183038c949835a7d90c5e1c18647d9922e3a33))
+
 # [2.0.0](https://github.com/nirgn975/devRes/compare/v1.0.3...v2.0.0) (2021-01-05)
 
 ### Features
