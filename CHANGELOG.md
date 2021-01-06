@@ -1,3 +1,13 @@
+## [2.0.2](https://github.com/nirgn975/devRes/compare/v2.0.1...v2.0.2) (2021-01-06)
+
+### Documentation
+
+- change the getting started section on README to be more clear ([35524fb](https://github.com/nirgn975/devRes/commit/35524fbe696080a93caea0fc8b861cbf2ebe54c2))
+
+### Other
+
+- Merge branch 'main' of github.com:nirgn975/devRes into main ([4149ca8](https://github.com/nirgn975/devRes/commit/4149ca839235b6518be65665401dd6e967c5d559))
+
 ## [2.0.1](https://github.com/nirgn975/devRes/compare/v2.0.0...v2.0.1) (2021-01-06)
 
 ### Continuous Integration
