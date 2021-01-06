@@ -1,5 +1,6 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
+
 title = "DevRes"
 theme = "devRes"
 
@@ -7,6 +8,9 @@ theme = "devRes"
 themesDir = "../.."
 
 [params]
+  description = "The best theme for developers resume"
+  author = "nirgn975"
+
   [params.light]
     background = "#E0E0E0"
     text = "#333333"
