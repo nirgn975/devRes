@@ -24,16 +24,31 @@ To see this theme in action, Here is a [live demo](https://nirgn975.github.io/de
 
 ## Getting started
 
-If you want to use the theme in your own [hugo](https://gohugo.io) website just `clone` the repo to your `theme` directory and add it to your `config.toml` file.
+If you want to use the theme in your own [hugo](https://gohugo.io) website just `clone` the repo to to your `themes` directory or `add` it as a submodule.
+
+```bash
+$ git clone git@github.com:nirgn975/devRes.git themes/devRes
+```
+
+or
+
+```bash
+$ git submodule add git@github.com:nirgn975/devRes.git themes/devRes
+```
+
+And then add it to your `config.toml` file
 
 ```toml
 theme = "devRes"
 ```
 
+You can look at the [exampleSite](https://github.com/nirgn975/devRes/tree/main/exampleSite) to check out the `config.tomal` and the `data/content.yaml` for examples.
+
 ## Customization
 
 1. You can change the theme colors in the `config.toml` file.
 2. Your resume data should be added in the `data/content.yaml` file.
+3. Your favicons should go in an `icons` directory inside `static`. You can easily generate them with [realfavicongenerator](https://realfavicongenerator.net), and set theme-color and background-color in `browserconfig.xml` and `site.webmanifest`.
 
 You can check the `exampleSite` directory for an example.
 
