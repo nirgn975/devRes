@@ -11,7 +11,7 @@
           <span class="date">{{ .timeStart }} - {{ .timeEnd }}</span>
           <h3>
             {{ .course }} @
-            <a href="{{ .schoolUrl | safeHTML }}" target="_blank">{{ .schoolName }}</a>
+            <a href="{{ .schoolUrl | safeHTML }}" target="_blank" rel="noreferrer">{{ .schoolName }}</a>
           </h3>
           <p>
             {{ .text | safeHTML }}
