@@ -1,3 +1,9 @@
+## [2.0.6](https://github.com/nirgn975/devRes/compare/v2.0.5...v2.0.6) (2021-01-07)
+
+### Bug Fixes
+
+- change color for blog time tag to pass the accessibility test on lighthouse (#15) ([434e7b5](https://github.com/nirgn975/devRes/commit/434e7b5d65ab44509e92ca9f6c37192b46ac2e63)), closes [#15](https://github.com/nirgn975/devRes/issues/15)
+
 ## [2.0.5](https://github.com/nirgn975/devRes/compare/v2.0.4...v2.0.5) (2021-01-07)
 
 ### Bug Fixes
