@@ -4,7 +4,7 @@
 
 > A Hugo resume theme with a Developer focus in mind.
 
-![Screenshot](https://github.com/nirgn975/devRes/blob/main/images/screenshot.webp)
+![Screenshot](https://raw.githubusercontent.com/nirgn975/devRes/main/images/screenshot.webp)
 
 ## DEMO
 
