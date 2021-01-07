@@ -1,3 +1,9 @@
+## [2.0.7](https://github.com/nirgn975/devRes/compare/v2.0.6...v2.0.7) (2021-01-07)
+
+### Bug Fixes
+
+- fix README hero image and Hugo tags ([4a2068a](https://github.com/nirgn975/devRes/commit/4a2068aa28b2b948fb7ea227c55fdd9d32d1c0a6))
+
 ## [2.0.6](https://github.com/nirgn975/devRes/compare/v2.0.5...v2.0.6) (2021-01-07)
 
 ### Bug Fixes
