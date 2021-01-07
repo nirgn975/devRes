@@ -1,6 +1,6 @@
 (() => {
   // ns-params:@params
-  var blog = {enable: false, numberOfPosts: 2, sitemapUrl: "https://lifelongstudent.io/index.xml", url: "https://lifelongstudent.io"};
+  var blog = {enable: true, numberOfPosts: 4, sitemapUrl: "https://lifelongstudent.io/index.xml", url: "https://lifelongstudent.io"};
   var projects = {enable: true, githubUsername: "nirgn975", repos: [{name: "Jekyll Starter Kit Generator", url: "generator-jekyll-starter-kit"}, {name: "Stories Of A Lifelong Student", url: "stories-of-a-lifelong-student"}, {name: "Developer Resume", url: "devRes"}]};
 
   // javascript/main.js
@@ -39,6 +39,7 @@
           const postText = entity.getElementsByTagName("description")[0].textContent.replace('src="/', `src="${blog.url}/`);
           const regex = /<div class="featured-image">\n.+\n.+<\/div>/g;
           const postImage = postText.match(regex);
+          const postImageWithAlt = String(postImage).replace("img", "img alt='Blog post hero image'");
           const postDescription = postText.replace(regex, "");
           let editedPostText = postDescription.split(" ", 60).join(" ");
           if (postDescription.split(" ").length > 60) {
@@ -58,7 +59,7 @@
                   </div>
                 </div>
                 <div class="uk-card-media-top">
-                  ${postImage}
+                  ${postImageWithAlt}
                 </div>
                 <div class="uk-card-body">
                   <p>${editedPostText}</p>
