@@ -6,9 +6,9 @@ license = "ISC"
 licenselink = "https://github.com/nirgn975/devRes/main/LICENSE"
 description = "A Hugo Developer Focus Resume"
 homepage = "https://github.com/nirgn975/devRes"
-tags = ["developer", "resume", "cv"]
-features = ["developer", "resume", "cv"]
-min_version = "0.59.0"
+tags = ["developer", "resume", "cv", "minimal", "clean", "mobile", "personal"]
+features = ["dark mode", "automated contact-form", "cv", "light", "responsive"]
+min_version = "0.72.0"
 
 [author]
   name = "Nir Galon"
