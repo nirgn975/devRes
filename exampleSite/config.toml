@@ -14,14 +14,14 @@ themesDir = "../.."
   [params.light]
     background = "#E0E0E0"
     text = "#333333"
-    textHover = "#1e70bf"
+    textHover = "#0a62b9"
     border = "#999999"
     headerBackground = "#ffffff"
 
   [params.dark]
     background = "#303030"
     text = "#B3B3B3"
-    textHover = "#bdebfc"
+    textHover = "#0a62b9"
     border = "#666666"
     headerBackground = "#424242"
 
