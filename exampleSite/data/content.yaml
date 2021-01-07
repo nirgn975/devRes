@@ -121,10 +121,10 @@ projects:
     name: Developer Resume
 
 blog:
-  enable: False
+  enable: True
   url: https://lifelongstudent.io
   sitemapUrl: https://lifelongstudent.io/index.xml
-  numberOfPosts: 2
+  numberOfPosts: 4
 
 talks:
     enable: True

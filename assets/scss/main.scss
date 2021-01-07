@@ -183,6 +183,10 @@ span.category-header {
 .posts, .repos {
   div.uk-card-header {
       border: none;
+
+      time {
+        color: #767676;
+      }
   }
 
   h3.uk-card-title b {
