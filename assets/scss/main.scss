@@ -1,7 +1,7 @@
 :root {
   --color-background: {{ .Site.Params.light.background | default "#E0E0E0" }};
   --color-text: {{ .Site.Params.light.text | default "#333333" }};
-  --color-text-hover: {{ .Site.Params.light.textHover | default "#1e70bf" }};
+  --color-text-hover: {{ .Site.Params.light.textHover | default "#0a62b9" }};
   --color-border: {{ .Site.Params.light.border | default "#999999" }};
   --color-header-background: {{ .Site.Params.light.headerBackground | default "#ffffff" }};
 }
@@ -9,7 +9,7 @@
 [data-theme="dark"] {
   --color-background: {{ .Site.Params.dark.background | default "#303030" }};
   --color-text: {{ .Site.Params.dark.text | default "#B3B3B3" }};
-  --color-text-hover: {{ .Site.Params.dark.textHover | default "#bdebfc" }};
+  --color-text-hover: {{ .Site.Params.dark.textHover | default "#0a62b9" }};
   --color-border: {{ .Site.Params.dark.colorBorder | default "#666666" }};
   --color-header-background: {{ .Site.Params.dark.headerBackground | default "#424242" }};
 }
@@ -45,8 +45,14 @@ span {
   color: var(--color-text);
 }
 
+a {
+  color: var(--color-text-hover);
+  text-decoration: none;
+}
+
 a:hover {
   color: var(--color-text-hover);
+  text-decoration: none !important;
 }
 
 div.uk-container {
@@ -117,10 +123,6 @@ span.category-header {
     i {
       margin-right: .5rem;
     }
-  }
-
-  a:hover {
-    color: var(--color-text-hover);
   }
 }
 
