@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/nirgn975/devRes/compare/v2.0.4...v2.0.5) (2021-01-07)
+
+### Bug Fixes
+
+- fix best practices lighthouse optimization (#13) ([f8e8a82](https://github.com/nirgn975/devRes/commit/f8e8a827e471eb4e637582cc561c56e6c24eac49)), closes [#13](https://github.com/nirgn975/devRes/issues/13) [#12](https://github.com/nirgn975/devRes/issues/12)
+- fix the talks section if statement (#11) ([2337b98](https://github.com/nirgn975/devRes/commit/2337b98b1476997fc01c662c9d38ac5b4cb1a783)), closes [#11](https://github.com/nirgn975/devRes/issues/11) [#10](https://github.com/nirgn975/devRes/issues/10)
+
 ## [2.0.4](https://github.com/nirgn975/devRes/compare/v2.0.3...v2.0.4) (2021-01-06)
 
 ### Documentation
