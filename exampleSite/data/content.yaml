@@ -84,29 +84,29 @@ skills:
   items:
     - family: FrontEnd
       items:
-        - icon: <span class="devicons devicons-html5"></span>
+        - icon: <i class="devicon devicon-html5-plain"></i>
           text: HTML
-        - icon: <span class="devicons devicons-sass"></span>
+        - icon: <i class="devicon devicon-css3-plain"></i>
           text: CSS / SCSS (Bootstrap, Material Design)
-        - icon: <span class="devicons devicons-nodejs_small"></span>
+        - icon: <i class="devicon devicon-javascript-plain"></i>
           text: JavaScript (jQuery, Ajax)
-        - icon: <span class="devicons devicons-angular"></span>
+        - icon: <i class="devicon devicon-angularjs-plain"></i>
           text: Angular
     - family: BackEnd
       items:
-        - icon: <span class="devicons devicons-nodejs"></span>
+        - icon: <i class="devicon devicon-nodejs-plain"></i>
           text: Node.js (TypeScript, NestJS, Mocha)
-        - icon: <span class="devicons devicons-python"></span>
+        - icon: <i class="devicon devicon-python-plain"></i>
           text: Python (Django, Sanic)
-        - icon: <span class="devicons devicons-go"></span>
+        - icon: <i class="devicon devicon-go-plain"></i>
           text: Golang
     - family: Platforms
       items:
-        - icon: <span class="devicons devicons-linux"></span>
+        - icon: <i class="devicon devicon-linux-plain"></i>
           text: Linux
-        - icon: <span class="devicons devicons-git"></span>
+        - icon: <i class="devicon devicon-git-plain"></i>
           text: Git
-        - icon: <span class="devicons devicons-github_badge"></span>
+        - icon: <i class="devicon devicon-github-original"></i>
           text: GitHub
 
 projects:

@@ -3,6 +3,9 @@ name: Continuous Deployment
 on:
   milestone:
     types: [closed]
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:

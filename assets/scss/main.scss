@@ -162,8 +162,8 @@ span.category-header {
     padding-left: 2rem;
   }
 
-  span.devicons {
-    font-size: 1.6rem;
+  i.devicon {
+    font-size: 1.3rem;
   }
 
   span.icon {
@@ -172,7 +172,7 @@ span.category-header {
     align-items: center;
   }
 
-  i.fas, i.fad, span.devicons {
+  i.fas, i.fad, i.devicon {
     margin-right: .25rem;
   }
 }
