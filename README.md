@@ -42,7 +42,7 @@ And then add it to your `config.toml` file
 theme = "devRes"
 ```
 
-You can look at the [exampleSite](https://github.com/nirgn975/devRes/tree/main/exampleSite) to check out the `config.tomal` and the `data/content.yaml` for examples.
+You can look at the [exampleSite](https://github.com/nirgn975/devRes/tree/main/exampleSite) to check out the `config.toml` and the `data/content.yaml` for examples.
 
 ## Customization
 
