@@ -3,7 +3,7 @@
   var blog = {enable: true, numberOfPosts: 4, sitemapUrl: "https://lifelongstudent.io/index.xml", url: "https://lifelongstudent.io"};
   var projects = {enable: true, githubUsername: "nirgn975", repos: [{name: "Jekyll Starter Kit Generator", url: "generator-jekyll-starter-kit"}, {name: "Stories Of A Lifelong Student", url: "stories-of-a-lifelong-student"}, {name: "Developer Resume", url: "devRes"}]};
 
-  // javascript/main.js
+  // <stdin>
   async function getReposData() {
     if (!projects.enable) {
       return;
