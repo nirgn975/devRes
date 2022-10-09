@@ -1,3 +1,18 @@
+## [2.0.8](https://github.com/nirgn975/devRes/compare/v2.0.7...v2.0.8) (2022-10-09)
+
+### Bug Fixes
+
+- update davicons exampleSite ([2549f58](https://github.com/nirgn975/devRes/commit/2549f580fead6414284927d96b15cbcde2e3c1b9))
+
+### Chores
+
+- update devicon cdn version ([7568943](https://github.com/nirgn975/devRes/commit/7568943e8b4f917422715b1a894ee04a841c1f21))
+
+### Documentation
+
+- fix hero image in README file to use absolute path ([32490b9](https://github.com/nirgn975/devRes/commit/32490b9368494c1a3abb54ab00da69e986f633c4))
+- fix hugo badge version ([1048423](https://github.com/nirgn975/devRes/commit/1048423477b62e1ff4a37cd3f9693e34b25ec394))
+
 ## [2.0.7](https://github.com/nirgn975/devRes/compare/v2.0.6...v2.0.7) (2021-01-07)
 
 ### Bug Fixes
